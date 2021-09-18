@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,700;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.nav-item a{
+    font-size: 20px;
+}
+.nav-item:hover{
+    background-color: burlywood;
+}
+/*menu*/
+.menu{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.menu-text{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.menu-title{
+    font-size: 48.83px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 58px;
+}
+.menu-descr{
+    font-size: 16px;
+    font-weight: 500;
+    color: #150C01;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-button-first{
+    font-size: 16px;
+    padding: 10px;
+    color:white;
+    background: #DC780B;
+    border-radius: 5px;
+}
+.menu-button-second{
+    font-size: 16px;
+    padding: 10px;
+    color: #DC780B;
+    background: white;
+    border-radius: 5px;
+}
+.menu-images{
+    display: flex;
+    width: 46%;
+    justify-content: flex-start;
+}
+/*Features*/
+.features{
+    width: 100%;
+    height: 100%;
+}
+.features-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features-title{
+    font-size: 25px;
+    color: #DC780B;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+.features-descr{
+    font-size: 32px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #150C01;
+}
+.features-group{
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.features-group-item{
+    padding-top: 50px;
+    width: 30%;
+}
+.features-group-item-fon  {
+    background: rgba(220, 120, 11, 1);
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 100% ;
+}
+.features-group-item-fon img {
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.features-group-item-fon-third  {
+    background: rgba(220, 120, 11, 1);
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 100% ;
+}
+.features-group-item-fon-third img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.features-group-text{
+    font-size: 25px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+.features-group-title{
+    width: 90%;
+    text-align: center;
+
+}
+/*about-us*/
+.about-us{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 100px;
+}
+.about-us-images{
+    width: 50%;
+
+}
+.about-us-images img{
+    border-radius: 20% ;
+}
+.about-us-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+
+}
+.about-us-title{
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+.about-us-descr{
+    width: 90%;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 41px;
+    color: #150C01;
+    padding-bottom: 10px;
+}
+.about-us-description{
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+.about-us-button{
+    background: #DC780B;
+    border-radius: 5px;
+    padding: 10px;
+}
+.about-us-button a{
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.about-us-button:hover{
+    padding: 12px;
+    background: darkred;
+}
+.logo-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 108px;
+    text-align: center;
+    color: #F8BB22;
+}
+/*foods*/
+.foods{
+    margin: auto;
+    color:white;
+    margin-top: 100px;
+}
+.food-title-text{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+.foods-text{
+    width: 90%;
+    font-size:48px;
+    font-weight: 500;
+    color:black;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.foods-descr{
+    font-size: 14px;
+}
+.foods-descr-p{
+    color: #707070;
+    text-align: center;
+    width: 43%;
+    margin: auto;
+    padding: 10px;
+}
+.foods-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-item{
+    margin: 10px;
+    width: 30%;
+}
+.food-item img{
+    width: 100%;
+}
+.food-left{
+    display: flex;
+    justify-content:space-around;
+
+}
+.food-title{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-top: 10px;
+}
+.food-item{
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+}
+.food-item img{
+    border-radius: 100px 0 100px 0;
+}
+.food-price{
+    padding: 10px;
+    font-size: 24px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #F8BB22;
+}
+.food-descr{
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #707070;
+    padding-left: -20px;
+    padding-bottom: 30px;
+}
+.food-buttons a{
+    color:yellow;
+    list-style-type: none;
+    text-decoration: none;
+}
+.food-buttons{
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.food-buttons:hover{
+    padding: 13px;
+    background-color: cornflowerblue;
+
+}
+.food-buttons a:hover{
+    color:black;
+}
+.food-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Play Store*/
+.store{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 100px;
+}
+.store-text-name{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+.store-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+.store-text{
+    font-size: 32px;
+    line-height: 41px;
+    color: #150C01;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width: 90%;
+}
+.store-descr{
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.store-button{
+    background: #150C01;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.store-button-second{
+    margin-top: 20px;
+    background: #150C01;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.store-button a{
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.store-button-second a{
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.store-img{
+    width:40%;
+    display: flex;
+    justify-content:flex-end;
+}
+.store-img img {
+    width: 50%;
+}
+/*footer*/
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.map{
+    width: 50%;
+}
+.footer-info{
+    width: 50%;
+}
+.nav-last{
+    margin: 0;
+}
+.footer-info{
+    color:white;
+    text-align: center;
+    padding-right: 20px;
+}
+h5{
+    color: black;
+    font-size: 36px;
+}
+.footer-address, .footer-phone{
+    font-size: 22px;
+    color: black;
+}
+.h3{
+    margin-bottom: 20px;
+    border:1px solid white;
+    padding: 10px;
+    color: black;
+
+}
+.footer-cite{
+    display: flex;
+}
+.logo-link{
+    display: block;
+    height: 35px;
+
+
+}
+.logo-tele{
+    width: 60px;
+    height: 50px;
+    margin-left: 30px;
+}
+.logo-footer{
+    display: flex;
+    padding-top: 30px;
+    margin: auto;
+    padding-left: 220px;
+
+}
+.logo-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 108px;
+    text-align: center;
+    color: #F8BB22;
+}
+
+/*about*/
+.features-title-about{
+    font-size: 25px;
+    color: #DC780B;
+    opacity: 0.7;
+    text-transform: uppercase;
+    padding: 30px;
+}

@@ -1,0 +1,107 @@
+.foods{
+
+    margin: auto;
+    color:white;
+    margin-top: 100px;
+}
+.foods-text{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    height: 100%;
+    font-size:55px;
+    font-weight: 500;
+    color:black;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.foods-descr{
+    font-size: 14px;
+}
+.foods-descr-p{
+    color: #707070;
+    text-align: center;
+    width: 43%;
+    margin: auto;
+    padding: 10px;
+}
+.foods-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-item{
+    margin: 10px;
+    width: 30%;
+}
+.food-item img{
+    width: 100%;
+}
+.food-left{
+    display: flex;
+    justify-content:space-around;
+
+}
+.food-title{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-top: 10px;
+}
+.food-item{
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+}
+.food-price{
+    padding: 10px;
+    font-size: 24px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #F8BB22;
+}
+.food-descr{
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #707070;
+    padding-left: -20px;
+    padding-bottom: 30px;
+}
+.foods-nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: burlywood;
+}
+.foods-nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 28px;
+    margin-right: 40px;
+}
+.foods-nav a.active{
+    color:floralwhite;
+}
+.owl-carousel{
+    padding-top: 150px;
+    width: 100%;
+
+}
+.item{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/chicken.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.item2{
+    width: 500px;
+    height: 500px;
+    background-image: url(../img/fon-about.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,151 @@
+@media (max-width: 416px) {
+    /*menu*/
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-text{
+        width: 100%;
+        justify-content: flex-start;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .menu-title{
+        padding-top: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .menu-images{
+        display: flex;
+        width: 100%;
+    }
+    .menu-images img{
+        width: 100%;
+    }
+    .menu-buttons{
+        padding-left: 75px;
+    }
+    .menu-button-first{
+        margin-right: 5px;
+    }
+/*    Features*/
+    .features-group{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .features-group-item{
+        width: 90%;
+    }
+    .features-group-title{
+        padding-left: 15px;
+    }
+/*    about-us*/
+    .about-us{
+        flex-wrap: wrap;
+    }
+    .about-us-images{
+        width: 80%;
+        padding-top: 20px;
+    }
+    .about-us-images img{
+        width: 100%;
+    }
+    .about-us-text{
+        width: 100%;
+    }
+    .about-us-title{
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .about-us-descr {
+        font-size: 25px;
+    }
+/*    foods*/
+    .foods-list{
+        margin: auto;
+    }
+    .food-item{
+        width: 70%;
+
+    }
+    .foods-descr-p{
+        width: 70%;
+    }
+/*    App Store*/
+    .store{
+        flex-wrap: wrap;
+    }
+    .store-text-name{
+        margin: auto;
+        width: 90%;
+        padding-left: 0;
+    }
+    .store-button{
+        padding: 5px 5px;
+        margin-left: 70px;
+    }
+    .store-title{
+        text-align: center;
+    }
+    .store-button-second{
+        padding: 5px 5px;
+    }
+    .store-buttons{
+        display: flex;
+    }
+    .store-img{
+        display: none;
+    }
+/*    footer*/
+    .map{
+        width: 70%;
+       align-items: center;
+        margin: auto;
+    }
+    .footer-info{
+        width: 90%;
+    }
+    .logo-tele{
+        width: 30px;
+        height: 25px;
+        margin-left: 15px;
+    }
+    .h5{
+        text-align: center;
+        font-size: 23px;
+        margin-left: 30px;
+    }
+    .footer-address, .footer-phone{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .h3{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .logo-footer{
+        width: 100%;
+        padding-left: 25%;
+    }
+/*    foods*/
+    .foods-nav a{
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .foods-nav{
+        width: 100%;
+    }
+    .foods-text{
+        font-size: 32px;
+    }
+/*    carousel*/
+    .item{
+        width: 100px;
+        height: 100px;
+    }
+    .item2{
+        width: 100px;
+        height: 100px;
+    }
+}
